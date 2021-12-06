@@ -1,11 +1,12 @@
 import React from 'react';
+import StripeContainer from './Stripe/StripeContainer';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1>Payments</h1>
+    <div className='App'>
+      <StripeContainer />
     </div>
   );
-}
+};
 
 export default App;
